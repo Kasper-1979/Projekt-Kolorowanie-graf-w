@@ -1,5 +1,7 @@
 # 🎨 Optymalizacja i Analiza Algorytmów Kolorowania Grafów
 
+![optymalizacja-kolorowania-grafow](https://socialify.git.ci/Kasper-1979/optymalizacja-kolorowania-grafow/image?description=1&font=Jost&language=1&name=1&owner=1&pattern=Circuit+Board&theme=Dark)
+
 ## 📖 O projekcie
 Projekt to inżynierska analiza efektywności różnych podejść do klasycznego problemu unikalnego kolorowania wierzchołków grafu (Graph Coloring Problem). 
 
