@@ -1,5 +1,3 @@
-# Projekt Kolorowanie grafów
-
 # 🎨 Optymalizacja i Analiza Algorytmów Kolorowania Grafów
 
 ## 📖 O projekcie
