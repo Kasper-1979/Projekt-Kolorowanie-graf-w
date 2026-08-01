@@ -22,10 +22,34 @@ The following approaches were implemented for performance verification:
 ## 📂 Repository Structure
 The project architecture is organized according to best practices:
 
-*   `/src` - Main source code (graph generation engine and algorithm modules).
-*   `/results` - Output data and spreadsheets containing performance test results.
-*   `/tests` - Verification of the color assignment logic.
-*   `/docs` - Project documentation and analytical conclusions.
+## 📂 Repository Structure
+
+```text
+├── docs/
+│   ├── README.md                          # Documentation overview
+│   ├── graph_coloring.pdf                 # Project report and analysis
+│   └── graph_coloring.pptx                # Presentation slides
+├── results/
+│   ├── README.md                          # Results documentation
+│   ├── graph_coloring_tests_results1.pdf  # Test scenario 1 summary
+│   ├── graph_coloring_tests_results1.xlsx # Test scenario 1 raw data
+│   ├── graph_coloring_tests_results2.pdf  # Test scenario 2 summary
+│   └── graph_coloring_tests_results2.xlsx # Test scenario 2 raw data
+├── src/
+│   ├── example/
+│   │   ├── README.md                      # Example script documentation
+│   │   └── graph_coloring_task.py         # Executable demonstration script
+│   └── main/
+│       ├── README.md                      # Core architecture documentation
+│       └── graph_coloring.py              # Main algorithms implementation
+├── tests/
+│   ├── README.md                          # Testing suite documentation
+│   └── graph_coloring_tests.py            # Verification of coloring logic
+├── .gitattributes                         # Git configuration for file behaviors
+├── .gitignore                             # Rules for intentionally untracked files
+├── README.md                              # Main project documentation
+└── requirements.txt                       # Python dependencies
+```
 
 ## 🚀 Requirements & Execution
 
