@@ -1,0 +1,15 @@
+# Auto-normalize line endings for all text files
+* text=auto
+
+# Enforce LF line endings (Unix standard) for Python scripts
+*.py text eol=lf
+
+# Binary files - disable text diffs to prevent file corruption
+*.xlsx binary
+*.pdf binary
+*.pptx binary
+*.png binary
+
+# Text files and documentation
+*.md text
+*.txt text
