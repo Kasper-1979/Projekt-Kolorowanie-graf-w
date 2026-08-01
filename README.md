@@ -73,3 +73,9 @@ The performance tests and computational complexity analysis yielded the followin
 2. Heuristic Algorithms (Greedy): These offer a drastic reduction in execution time down to fractions of a second, even for highly complex networks.
 
 3. Heuristic Optimality: The DSATUR (SLF) algorithm demonstrated the highest efficacy among the approximation methods, consistently getting closest to the optimal chromatic number. The LF and SL algorithms, although marginally faster, are more prone to overestimating the required number of colors in graphs with high edge density.
+
+## 👤 Author & Contact
+
+**Kacper Lis**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kacper-lis-2b9874410/)
