@@ -1,6 +1,6 @@
-# 🎨 Graph Coloring Algorithms:
+# 🎨 Graph Coloring Algorithms: Optimization and Analysis
 
-![Project Banner](https://socialify.git.ci/Kasper-1979/optymalizacja-kolorowania-grafow/image?description=1&font=Jost&language=1&name=1&owner=1&pattern=Circuit%20Board&theme=Dark)Optimization and Analysis
+![graph-coloring-optimization](https://socialify.git.ci/Kasper-1979/graph-coloring-optimization/image?custom_description=Implementation+and+comparative+analysis+of+greedy+and+exact+algorithms+for+the+graph+coloring+optimization+problem.&description=1&font=Jost&language=1&name=1&owner=1&pattern=Circuit+Board&theme=Dark)
 
 ## 📖 About the Project
 This project provides an engineering analysis of the efficiency of various approaches to the classic Graph Coloring Problem. 
