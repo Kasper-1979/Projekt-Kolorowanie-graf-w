@@ -38,3 +38,15 @@ Projekt wykorzystuje standardowe pakiety do modelowania danych i analizy sieci:
 
 ```bash
 python skrypty/przyklad/kolorowanie_grafow_zadanie.py --wezly 15 --prawdopodobienstwo 0.4
+```
+
+**Wyniki działania:**
+
+Program wygeneruje układ węzłów, przetworzy go wszystkimi dostępnymi metodami, a następnie zwróci metryki wydajnościowe w konsoli oraz wygeneruje wykresy słupkowe porównujące czas egzekucji i optymalność doboru kolorów.
+
+## 📊 Wnioski i Rezultaty
+Z przeprowadzonych testów wydajnościowych oraz analizy złożoności obliczeniowej płyną następujące wnioski:
+
+* **Algorytmy dokładne (Brute Force, Backtracking):** Gwarantują znalezienie absolutnego minimum liczby chromatycznej, jednak ich wykładnicza złożoność czasowa sprawia, że są bezużyteczne dla grafów o większej liczbie wierzchołków. Backtracking znacząco optymalizuje proces względem Brute Force poprzez wczesne odcinanie błędnych gałęzi, ale nadal nie skaluje się do rozmiarów komercyjnych.
+* **Algorytmy heurystyczne (Zachłanne):** Oferują drastyczny spadek czasu egzekucji do ułamków sekund, nawet przy złożonych sieciach. 
+* **Optymalność heurystyk:** Algorytm **DSATUR (SLF)** wykazał najwyższą skuteczność wśród metod przybliżonych, najczęściej zbliżając się do optymalnej liczby chromatycznej. Algorytmy **LF** oraz **SL**, choć marginalnie szybsze, częściej przeszacowują wymaganą liczbę kolorów przy grafach o wysokim zagęszczeniu krawędzi.
