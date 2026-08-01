@@ -22,8 +22,6 @@ The following approaches were implemented for performance verification:
 ## 📂 Repository Structure
 The project architecture is organized according to best practices:
 
-## 📂 Repository Structure
-
 ```text
 ├── docs/
 │   ├── README.md                          # Documentation overview
