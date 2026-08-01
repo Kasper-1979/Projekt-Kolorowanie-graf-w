@@ -41,7 +41,6 @@ python skrypty/przyklad/kolorowanie_grafow_zadanie.py --wezly 15 --prawdopodobie
 ```
 
 **Wyniki działania:**
-
 Program wygeneruje układ węzłów, przetworzy go wszystkimi dostępnymi metodami, a następnie zwróci metryki wydajnościowe w konsoli oraz wygeneruje wykresy słupkowe porównujące czas egzekucji i optymalność doboru kolorów.
 
 ## 📊 Wnioski i Rezultaty
