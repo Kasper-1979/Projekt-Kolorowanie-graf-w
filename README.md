@@ -34,6 +34,7 @@ The project architecture is organized according to best practices:
 │   ├── graph_coloring_tests_results2.pdf  # Test scenario 2 summary
 │   └── graph_coloring_tests_results2.xlsx # Test scenario 2 raw data
 ├── src/
+│   ├── README.md                          # Source code root documentation
 │   ├── example/
 │   │   ├── README.md                      # Example script documentation
 │   │   └── graph_coloring_task.py         # Executable demonstration script
